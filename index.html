@@ -2,105 +2,375 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoolix - Smart Ideas for your Brand are Here</title>
-    <!-- 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoolix - Smart Ideas for your Brand are Here</title>
+  <!-- 
         fivicon
      -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
-    <!-- 
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+  <!-- 
         custom css link
       -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- 
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 
         google fonts
        -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <!-- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- 
             preload images
          -->
-    <link rel="reload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="reload" as="image" href="./assets/images/hero-banner.png">
 </head>
 <!-- 
     ## header
  -->
 <header class="header" data-header>
-    <div class="container">
+  <div class="container">
+    <a href="#" class="logo">Hoolix</a>
+    <nav class="navbar" data-navbar>
+      <div class="wrapper">
         <a href="#" class="logo">Hoolix</a>
-        <nav class="navbar" data-navbar>
-            <div class="wrapper">
-                <a href="#" class="logo">Hoolix</a>
-                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                </button>
-
-            </div>
-            <ul class="navbar-list">
-                <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
-                <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
-                <li><a href="#services" class="navbar-link" data-nav-link>Services</a></li>
-                <li><a href="#features" class="navbar-link" data-nav-link>features</a></li>
-                <li><a href="#" class="navbar-link" data-nav-link>Blog</a></li>
-                <li><a href="#" class="navbar-link" data-nav-link>Contact Us</a></li>
-            </ul>
-
-
-        </nav>
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-
-
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
-        <a href="#" class="btn-outline">Lets talk</a>
-        <div class="overlay" data-nav-toggler data-overlay></div>
-    </div>
+
+      </div>
+      <ul class="navbar-list">
+        <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+        <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+        <li><a href="#services" class="navbar-link" data-nav-link>Services</a></li>
+        <li><a href="#features" class="navbar-link" data-nav-link>features</a></li>
+        <li><a href="#" class="navbar-link" data-nav-link>Blog</a></li>
+        <li><a href="#" class="navbar-link" data-nav-link>Contact Us</a></li>
+      </ul>
+
+
+    </nav>
+    <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+      <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+
+
+    </button>
+    <a href="#" class="btn-outline">Lets talk</a>
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
 </header>
 
 <!-- 
     -#HERO
   -->
 <main>
-    <article>
-        <section class="section hero" id="here" aria-label="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <p class="hero-subtitle has-before">Wellcome to Our Agency</p>
-                    <h1 class="h1 hero-title">Smart Ideas for your Brand are Here</h1>
-                    <p class="hero-text">
-                        Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que,
-                        vulputate ante
-                        quis, tempus
-                        enim. Proin quis euismod purus. Suspen disse efficitur
-                        aliquam enim sed consequat vulputate ante quis.
-                    </p>
-                    <div class="btn-group">
-                        <a href="#" class="btn btn-primary">Discover More</a>
+  <article>
+    <section class="section hero" id="here" aria-label="hero">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-subtitle has-before">Welcome to Our Agency</p>
+          <h1 class="h1 hero-title">Smart Ideas for your Brand are Here</h1>
+          <p class="hero-text">
+            Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que,
+            vulputate ante
+            quis, tempus
+            enim. Proin quis euismod purus. Suspen disse efficitur
+            aliquam enim sed consequat vulputate ante quis.
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Discover More</a>
+            <button class="flex-btn">
+              <div class="btn-icon">
+                <ion-icon name="play" aria-hidden="true"></ion-icon>
+              </div>
+              <span class="span">How it works</span>
+            </button>
 
-                    </div>
-                    <button class="flex-btn">
-                        <div class="btn-icon">
-                            <ion-icon name="play" aria-hidden="true"></ion-icon>
-                        </div>
-                        <span class="span">How it works</span>
-                    </button>
+          </div>
+        </div>
+        <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+          <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+        </figure>
 
+      </div>
+      <!-- 
+        - #ABOUT
+      -->
 
-                </div>
-                <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
-                    <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
-                </figure>
+    </section>
+    <section class="section about" id="about" aria-label="about">
+      <div class="container">
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" class="w-100" alt="">
+        </figure>
 
-            </div>
+        <div class="about-content">
+          <h2 class="h2-sm section-tilte">We create some things, Design for your success future.</h2>
+          <p class="section-text">
+            Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been
+            the industrys
+            standard dummy text ever.
+          </p>
+          <ul class="about-list">
+            <li class="has-before">
+              Price of additional materials or parts (if needed)
+            </li>
+            <li class="has-before">
+              Transportation cost for carrying new materials/parts
+            </li>
 
-        </section>
-    </article>
+            <li class="has-before">
+              You will get 100% money back offer.
+            </li>
+
+          </ul>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Know More</a>
+
+            <button class="flex-btn">
+              <div class="btn-icon">
+                <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+              </div>
+
+              <span class="span">10+ Years Experience</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- 
+     - #SERVICE
+ -->
+<section class="section service" id="services" aria-label="service">
+  <div class="container">
+
+    <p class="section-subtitle text-center">-What We Offer-</p>
+
+    <h2 class="h2 section-title text-center">Our Creative Services</h2>
+
+    <p class="section-text text-center">
+      Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+      experiences.
+    </p>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="service-card has-after">
+
+          <figure class="card-icon">
+            <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy" alt="UI/UX Creative Design"
+              class="img">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3 card-title">UI/UX Creative Design</h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+              adipiscing elit.
+            </p>
+
+            <a href="#" class="btn-link">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card has-after">
+
+          <figure class="card-icon">
+            <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+              class="img">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3 card-title">App Development</h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+              adipiscing elit.
+            </p>
+
+            <a href="#" class="btn-link">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card has-after">
+
+          <figure class="card-icon">
+            <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+              alt="Professional Content Writer" class="img">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3 card-title">Professional Content Writer</h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+              adipiscing elit.
+            </p>
+
+            <a href="#" class="btn-link">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card has-after">
+
+          <figure class="card-icon">
+            <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+              class="img">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3 card-title">Graphic Design</h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+              adipiscing elit.
+            </p>
+
+            <a href="#" class="btn-link">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+    <a href="#" class="btn btn-primary">Get Started</a>
+
+  </div>
+</section>
+
+<!-- 
+  #FEATURES
+ -->
+ <section class="section features" id="features" aria-label="features">
+  <div class="container">
+    <p class="section-subtitle text-center">-Why Choose Us-</p>
+    <h2 class="section-title text-center">Reasons to Choose Us</h2>
+    <p class="section-text text-center">
+      Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+      experiences.
+    </p>
+    <ul class="grid-list">
+      <li>
+        <div class="features-card">
+          <data class="card-number" value="01">01</data>
+          <h3 class="h3 card-title">Free Icon Plugin</h3>
+          <p class="card-text">Nullam ullamcorper condimentum urna eu accumsan.</p>
+          
+        </div>
+      </li>
+      <li>
+        <div class="features-card">
+  
+          <data class="card-number" value="02">02</data>
+  
+          <h3 class="h3 card-title">Free 6 Month Support</h3>
+  
+          <p class="card-text">
+            Nullam ullamcorper condimentum urna eu accumsan.
+          </p>
+  
+        </div>
+      </li>
+      <li>
+        <div class="features-card">
+  
+          <data class="card-number" value="03">03</data>
+  
+          <h3 class="h3 card-title">Customer Strategy</h3>
+  
+          <p class="card-text">
+            Nullam ullamcorper condimentum urna eu accumsan.
+          </p>
+  
+        </div>
+      </li>
+      <li>
+        <div class="features-card">
+  
+          <data class="card-number" value="04">04</data>
+  
+          <h3 class="h3 card-title">Best Premimum Image</h3>
+  
+          <p class="card-text">
+            Nullam ullamcorper condimentum urna eu accumsan.
+          </p>
+  
+        </div>
+      </li>
+      <li>
+        <div class="features-card">
+  
+          <data class="card-number" value="05">05</data>
+  
+          <h3 class="h3 card-title">Most Advanced Features</h3>
+  
+          <p class="card-text">
+            Nullam ullamcorper condimentum urna eu accumsan.
+          </p>
+  
+        </div>
+      </li>
+      <li>
+        <div class="features-card">
+  
+          <data class="card-number" value="06">06</data>
+  
+          <h3 class="h3 card-title">Very Reasonable Price</h3>
+  
+          <p class="card-text">
+            Nullam ullamcorper condimentum urna eu accumsan.
+          </p>
+  
+        </div>
+      </li>
+    </ul>
+  
+  </div>
+  
+ </section>
+  </article>
 </main>
+
 
 <!-- 
     custom js link
